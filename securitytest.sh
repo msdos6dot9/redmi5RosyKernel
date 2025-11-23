@@ -1,1 +1,0 @@
-python3 -m vanir.detector_runner android_kernel_scanner /home/windows96/Soft_Games/Developer开发/Redmi5Kernel/custom/redmi5RosyKernel/
