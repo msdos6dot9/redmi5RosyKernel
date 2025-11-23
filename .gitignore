@@ -18,7 +18,11 @@
 *.so
 *.so.dbg
 *.mod.c
+<<<<<<< HEAD
 #*.i
+=======
+*.i
+>>>>>>> 60a8d8af3751b9dc22894fe68b3964ea94ae7888
 *.lst
 *.symtypes
 *.order
@@ -98,3 +102,9 @@ x509.genkey
 
 # Kconfig presets
 all.config
+<<<<<<< HEAD
+=======
+
+# fetched Android config fragments
+android/configs/android-*.cfg
+>>>>>>> 60a8d8af3751b9dc22894fe68b3964ea94ae7888
