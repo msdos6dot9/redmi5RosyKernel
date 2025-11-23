@@ -18,7 +18,11 @@
 *.so
 *.so.dbg
 *.mod.c
+<<<<<<< HEAD
 #*.i
+=======
+*.i
+>>>>>>> 6b324f071c6ed27fd660d3326f13ab4bf0c854d1
 *.lst
 *.symtypes
 *.order
@@ -64,8 +68,11 @@ Module.symvers
 include/config
 include/generated
 arch/*/include/generated
+<<<<<<< HEAD
 out/*
 kernel.log
+=======
+>>>>>>> 6b324f071c6ed27fd660d3326f13ab4bf0c854d1
 
 # stgit generated dirs
 patches-*
