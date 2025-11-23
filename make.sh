@@ -1,0 +1,1 @@
+make clean && rm -rf out/ && mkdir out && export ARCH=arm64 && export SUBARCH=arm64 && export CROSS_COMPILE=${PWD}/toolchain/bin/aarch64-linux-android- && make O=out rosy-perf_defconfig && make -j$(nproc) O=out 2>&1 | tee kernel.log
